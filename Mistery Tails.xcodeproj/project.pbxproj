@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0781E17026A2C5E9000C567E /* Mistery Tales WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0781E16F26A2C5E9000C567E /* Mistery Tales WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0781E17626A2C5E9000C567E /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0781E17426A2C5E9000C567E /* Interface.storyboard */; };
+		0781E17826A2C5EA000C567E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0781E17726A2C5EA000C567E /* Assets.xcassets */; };
+		0781E17F26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0781E17E26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0781E18426A2C5EA000C567E /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E18326A2C5EA000C567E /* InterfaceController.swift */; };
+		0781E18626A2C5EA000C567E /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E18526A2C5EA000C567E /* ExtensionDelegate.swift */; };
+		0781E18826A2C5EA000C567E /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E18726A2C5EA000C567E /* NotificationController.swift */; };
+		0781E18A26A2C5EA000C567E /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E18926A2C5EA000C567E /* ComplicationController.swift */; };
+		0781E18C26A2C5EB000C567E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0781E18B26A2C5EB000C567E /* Assets.xcassets */; };
+		0781E19826A2C5EB000C567E /* Mistery_TailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E19726A2C5EB000C567E /* Mistery_TailsTests.swift */; };
+		0781E1A326A2C5EB000C567E /* Mistery_TailsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0781E1A226A2C5EB000C567E /* Mistery_TailsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0781E17126A2C5E9000C567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0781E16526A2C5E9000C567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0781E16E26A2C5E9000C567E;
+			remoteInfo = "Mistery Tails WatchKit App";
+		};
+		0781E18026A2C5EA000C567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0781E16526A2C5E9000C567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0781E17D26A2C5EA000C567E;
+			remoteInfo = "Mistery Tails WatchKit Extension";
+		};
+		0781E19426A2C5EB000C567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0781E16526A2C5E9000C567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0781E17D26A2C5EA000C567E;
+			remoteInfo = "Mistery Tails WatchKit Extension";
+		};
+		0781E19F26A2C5EB000C567E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0781E16526A2C5E9000C567E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0781E16E26A2C5E9000C567E;
+			remoteInfo = "Mistery Tails WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0781E1AA26A2C5EB000C567E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0781E17F26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E1AE26A2C5EB000C567E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0781E17026A2C5E9000C567E /* Mistery Tales WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0781E16B26A2C5E9000C567E /* Mistery Tales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mistery Tales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781E16F26A2C5E9000C567E /* Mistery Tales WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mistery Tales WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781E17526A2C5E9000C567E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0781E17726A2C5EA000C567E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0781E17926A2C5EA000C567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781E17E26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mistery Tales WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781E18326A2C5EA000C567E /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0781E18526A2C5EA000C567E /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		0781E18726A2C5EA000C567E /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0781E18926A2C5EA000C567E /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0781E18B26A2C5EB000C567E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0781E18D26A2C5EB000C567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781E18E26A2C5EB000C567E /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0781E19326A2C5EB000C567E /* Mistery TalesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistery TalesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781E19726A2C5EB000C567E /* Mistery_TailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistery_TailsTests.swift; sourceTree = "<group>"; };
+		0781E19926A2C5EB000C567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0781E19E26A2C5EB000C567E /* Mistery TailsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mistery TailsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0781E1A226A2C5EB000C567E /* Mistery_TailsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mistery_TailsUITests.swift; sourceTree = "<group>"; };
+		0781E1A426A2C5EB000C567E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0781E17B26A2C5EA000C567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E19026A2C5EB000C567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E19B26A2C5EB000C567E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0781E16426A2C5E9000C567E = {
+			isa = PBXGroup;
+			children = (
+				0781E17326A2C5E9000C567E /* Mistery Tails WatchKit App */,
+				0781E18226A2C5EA000C567E /* Mistery Tails WatchKit Extension */,
+				0781E19626A2C5EB000C567E /* Mistery TailsTests */,
+				0781E1A126A2C5EB000C567E /* Mistery TailsUITests */,
+				0781E16C26A2C5E9000C567E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0781E16C26A2C5E9000C567E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0781E16B26A2C5E9000C567E /* Mistery Tales.app */,
+				0781E16F26A2C5E9000C567E /* Mistery Tales WatchKit App.app */,
+				0781E17E26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex */,
+				0781E19326A2C5EB000C567E /* Mistery TalesTests.xctest */,
+				0781E19E26A2C5EB000C567E /* Mistery TailsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0781E17326A2C5E9000C567E /* Mistery Tails WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0781E17426A2C5E9000C567E /* Interface.storyboard */,
+				0781E17726A2C5EA000C567E /* Assets.xcassets */,
+				0781E17926A2C5EA000C567E /* Info.plist */,
+			);
+			path = "Mistery Tails WatchKit App";
+			sourceTree = "<group>";
+		};
+		0781E18226A2C5EA000C567E /* Mistery Tails WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0781E18326A2C5EA000C567E /* InterfaceController.swift */,
+				0781E18526A2C5EA000C567E /* ExtensionDelegate.swift */,
+				0781E18726A2C5EA000C567E /* NotificationController.swift */,
+				0781E18926A2C5EA000C567E /* ComplicationController.swift */,
+				0781E18B26A2C5EB000C567E /* Assets.xcassets */,
+				0781E18D26A2C5EB000C567E /* Info.plist */,
+				0781E18E26A2C5EB000C567E /* PushNotificationPayload.apns */,
+			);
+			path = "Mistery Tails WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0781E19626A2C5EB000C567E /* Mistery TailsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0781E19726A2C5EB000C567E /* Mistery_TailsTests.swift */,
+				0781E19926A2C5EB000C567E /* Info.plist */,
+			);
+			path = "Mistery TailsTests";
+			sourceTree = "<group>";
+		};
+		0781E1A126A2C5EB000C567E /* Mistery TailsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0781E1A226A2C5EB000C567E /* Mistery_TailsUITests.swift */,
+				0781E1A426A2C5EB000C567E /* Info.plist */,
+			);
+			path = "Mistery TailsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0781E16A26A2C5E9000C567E /* Mistery Tales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0781E1AF26A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales" */;
+			buildPhases = (
+				0781E16926A2C5E9000C567E /* Resources */,
+				0781E1AE26A2C5EB000C567E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0781E17226A2C5E9000C567E /* PBXTargetDependency */,
+			);
+			name = "Mistery Tales";
+			productName = "Mistery Tails";
+			productReference = 0781E16B26A2C5E9000C567E /* Mistery Tales.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		0781E16E26A2C5E9000C567E /* Mistery Tales WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0781E1AB26A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales WatchKit App" */;
+			buildPhases = (
+				0781E16D26A2C5E9000C567E /* Resources */,
+				0781E1AA26A2C5EB000C567E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0781E18126A2C5EA000C567E /* PBXTargetDependency */,
+			);
+			name = "Mistery Tales WatchKit App";
+			productName = "Mistery Tails WatchKit App";
+			productReference = 0781E16F26A2C5E9000C567E /* Mistery Tales WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0781E17D26A2C5EA000C567E /* Mistery Tales WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0781E1A726A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales WatchKit Extension" */;
+			buildPhases = (
+				0781E17A26A2C5EA000C567E /* Sources */,
+				0781E17B26A2C5EA000C567E /* Frameworks */,
+				0781E17C26A2C5EA000C567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mistery Tales WatchKit Extension";
+			productName = "Mistery Tails WatchKit Extension";
+			productReference = 0781E17E26A2C5EA000C567E /* Mistery Tales WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0781E19226A2C5EB000C567E /* Mistery TalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0781E1B226A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery TalesTests" */;
+			buildPhases = (
+				0781E18F26A2C5EB000C567E /* Sources */,
+				0781E19026A2C5EB000C567E /* Frameworks */,
+				0781E19126A2C5EB000C567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0781E19526A2C5EB000C567E /* PBXTargetDependency */,
+			);
+			name = "Mistery TalesTests";
+			productName = "Mistery TailsTests";
+			productReference = 0781E19326A2C5EB000C567E /* Mistery TalesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0781E19D26A2C5EB000C567E /* Mistery TailsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0781E1B526A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery TailsUITests" */;
+			buildPhases = (
+				0781E19A26A2C5EB000C567E /* Sources */,
+				0781E19B26A2C5EB000C567E /* Frameworks */,
+				0781E19C26A2C5EB000C567E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0781E1A026A2C5EB000C567E /* PBXTargetDependency */,
+			);
+			name = "Mistery TailsUITests";
+			productName = "Mistery TailsUITests";
+			productReference = 0781E19E26A2C5EB000C567E /* Mistery TailsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0781E16526A2C5E9000C567E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0781E16A26A2C5E9000C567E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0781E16E26A2C5E9000C567E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0781E17D26A2C5EA000C567E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					0781E19226A2C5EB000C567E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0781E17D26A2C5EA000C567E;
+					};
+					0781E19D26A2C5EB000C567E = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 0781E16E26A2C5E9000C567E;
+					};
+				};
+			};
+			buildConfigurationList = 0781E16826A2C5E9000C567E /* Build configuration list for PBXProject "Mistery Tails" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0781E16426A2C5E9000C567E;
+			productRefGroup = 0781E16C26A2C5E9000C567E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0781E16A26A2C5E9000C567E /* Mistery Tales */,
+				0781E16E26A2C5E9000C567E /* Mistery Tales WatchKit App */,
+				0781E17D26A2C5EA000C567E /* Mistery Tales WatchKit Extension */,
+				0781E19226A2C5EB000C567E /* Mistery TalesTests */,
+				0781E19D26A2C5EB000C567E /* Mistery TailsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0781E16926A2C5E9000C567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E16D26A2C5E9000C567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0781E17826A2C5EA000C567E /* Assets.xcassets in Resources */,
+				0781E17626A2C5E9000C567E /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E17C26A2C5EA000C567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0781E18C26A2C5EB000C567E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E19126A2C5EB000C567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E19C26A2C5EB000C567E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0781E17A26A2C5EA000C567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0781E18826A2C5EA000C567E /* NotificationController.swift in Sources */,
+				0781E18A26A2C5EA000C567E /* ComplicationController.swift in Sources */,
+				0781E18626A2C5EA000C567E /* ExtensionDelegate.swift in Sources */,
+				0781E18426A2C5EA000C567E /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E18F26A2C5EB000C567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0781E19826A2C5EB000C567E /* Mistery_TailsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0781E19A26A2C5EB000C567E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0781E1A326A2C5EB000C567E /* Mistery_TailsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0781E17226A2C5E9000C567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0781E16E26A2C5E9000C567E /* Mistery Tales WatchKit App */;
+			targetProxy = 0781E17126A2C5E9000C567E /* PBXContainerItemProxy */;
+		};
+		0781E18126A2C5EA000C567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0781E17D26A2C5EA000C567E /* Mistery Tales WatchKit Extension */;
+			targetProxy = 0781E18026A2C5EA000C567E /* PBXContainerItemProxy */;
+		};
+		0781E19526A2C5EB000C567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0781E17D26A2C5EA000C567E /* Mistery Tales WatchKit Extension */;
+			targetProxy = 0781E19426A2C5EB000C567E /* PBXContainerItemProxy */;
+		};
+		0781E1A026A2C5EB000C567E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0781E16E26A2C5E9000C567E /* Mistery Tales WatchKit App */;
+			targetProxy = 0781E19F26A2C5EB000C567E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0781E17426A2C5E9000C567E /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0781E17526A2C5E9000C567E /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0781E1A526A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0781E1A626A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0781E1A826A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery Tails WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0781E1A926A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery Tails WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		0781E1AC26A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				IBSC_MODULE = Mistery_Tails_WatchKit_Extension;
+				INFOPLIST_FILE = "Mistery Tails WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0781E1AD26A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				IBSC_MODULE = Mistery_Tails_WatchKit_Extension;
+				INFOPLIST_FILE = "Mistery Tails WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		0781E1B026A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails";
+				PRODUCT_NAME = "Mistery Tales";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		0781E1B126A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-Tails";
+				PRODUCT_NAME = "Mistery Tales";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		0781E1B326A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery TailsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-TailsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistery Tails WatchKit Extension.appex/Mistery Tails WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0781E1B426A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery TailsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-TailsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mistery Tails WatchKit Extension.appex/Mistery Tails WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		0781E1B626A2C5EB000C567E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery TailsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-TailsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Mistery Tails WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0781E1B726A2C5EB000C567E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 847L8KALA5;
+				INFOPLIST_FILE = "Mistery TailsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it.mariovista.Mistery-TailsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Mistery Tails WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0781E16826A2C5E9000C567E /* Build configuration list for PBXProject "Mistery Tails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1A526A2C5EB000C567E /* Debug */,
+				0781E1A626A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0781E1A726A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1A826A2C5EB000C567E /* Debug */,
+				0781E1A926A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0781E1AB26A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1AC26A2C5EB000C567E /* Debug */,
+				0781E1AD26A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0781E1AF26A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery Tales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1B026A2C5EB000C567E /* Debug */,
+				0781E1B126A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0781E1B226A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery TalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1B326A2C5EB000C567E /* Debug */,
+				0781E1B426A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0781E1B526A2C5EB000C567E /* Build configuration list for PBXNativeTarget "Mistery TailsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0781E1B626A2C5EB000C567E /* Debug */,
+				0781E1B726A2C5EB000C567E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0781E16526A2C5E9000C567E /* Project object */;
+}
