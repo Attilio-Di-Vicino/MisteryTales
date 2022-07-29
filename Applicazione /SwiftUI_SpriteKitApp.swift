@@ -1,6 +1,6 @@
 //
 //  SwiftUI_SpriteKitApp.swift
-//  Applicazione - prova 3
+//  Mistery Tales
 //
 //  Created by Attilio Di vicino on 16/07/21.
 //

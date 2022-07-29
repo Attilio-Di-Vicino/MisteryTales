@@ -1,6 +1,6 @@
 //
 //  LocationManager.swift
-//  Applicazione - prova 3
+//  Mistery Tales
 //
 //  Created by Attilio Di vicino on 15/07/21.
 //
@@ -36,4 +36,4 @@
 //    }
     
     
-}
+//}
